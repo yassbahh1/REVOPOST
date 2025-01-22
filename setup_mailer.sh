@@ -7,8 +7,8 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 # Prompt for user inputs
-read -p "Enter the custom myhostname (or press Enter for localhost): " myhostname
-myhostname=${myhostname:-localhost}
+read -p "Enter the custom myhostname (or press Enter for localhost): mail.wishurheartsea.store " myhostname
+myhostname=${myhostname:-mail.wishurheartsea.store}
 
 read -p "Enter the sender email address: " sender_email
 read -p "Enter the sender name: " sender_name
